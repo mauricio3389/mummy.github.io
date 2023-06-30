@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    color: #F36192;
+    color: #ED64C2;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -332,15 +332,15 @@ section {
 .btn-large {
     font-size: 25px;
     display: inline-block;
-    border: 3px solid #fe6192;
-    color: #fe6192;
+    border: 3px solid #ED64C2;
+    color: #ED64C2;
     font-weight: bold;
     padding: 15px 50px;
     text-transform: uppercase;
 }
 
 .btn-large:hover {
-    background: #fe6192;
+    background: #ED64C2;
     color: #fff;
 }
 
@@ -359,8 +359,7 @@ section {
 .heading-block .huge-tittle {
     font-size: 105px;
     font-weight: 800;
-    color: #F36192;
-    text-transform: uppercase;
+    color: #ED64C2;
     display: inline-block;
     width: 100%;
     margin-top: 30px;
@@ -580,7 +579,7 @@ header .navbar li {
 }
 
 header .sticky {
-    padding: 20px 0;
+    padding: 10px 0;
     width: 100%;
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
@@ -920,7 +919,7 @@ header .is-sticky .sticky .nav .dropdown-menu {
 .call-num {
     font-size: 18px;
     font-weight: bold;
-    color: #fe6192;
+    color: #ED64C2;
     border-radius: 30px;
     border: 1px solid #cccccc;
     text-transform: uppercase;
@@ -947,11 +946,11 @@ header .is-sticky .sticky .nav .dropdown-menu {
 }
 
 .header.light .is-sticky .sticky {
-    background: #f08aa9;
+    background: #ED64C2;
 }
 
 header .navbar li a:hover {
-    color: #fe6192 !important;
+    color: #ED64C2 !important;
 }
 
 header .navbar li a:before {
@@ -960,7 +959,7 @@ header .navbar li a:before {
     top: 24px;
     height: 2px;
     width: 0px;
-    background: #fe6192;
+    background: #ED64C2;
     content: "";
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
@@ -979,7 +978,7 @@ header .navbar li.active a:before {
     top: 24px;
     height: 2px;
     width: 100%;
-    background: #fe6192;
+    background: #ED64C2;
     content: "";
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
@@ -989,7 +988,7 @@ header .navbar li.active a:before {
 }
 
 header .navbar li.active a {
-    color: #fe6192 !important;
+    color: #ED64C2 !important;
 }
 
 .navbar-toggle {
@@ -1048,7 +1047,7 @@ header.header-3d {
 
 .home-agency p {
     font-size: 30px;
-    color: #fe6192;
+    color: #ED64C2;
     letter-spacing: 2px;
     font-weight: normal;
 }
@@ -1056,7 +1055,8 @@ header.header-3d {
 #imagen {
     
     height: 1000px;
-    background: #fcb0e5 url(../images/bg/bg4.jpeg) no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/bg/bg4.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -1097,7 +1097,7 @@ header.header-3d {
 }
 
 .sub-bnr-home.port h1 {
-    color: #fe6192;
+    color: #ED64C2;
     font-size: 172px;
     line-height: 150px;
 }
@@ -1305,8 +1305,8 @@ header.header-3d {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fe6192;
-    border-bottom: 2px solid #fe6192;
+    color: #ED64C2;
+    border-bottom: 2px solid #ED64C2;
     position: relative;
 }
 
@@ -1428,7 +1428,7 @@ header.header-3d {
 }
 
 .sub-bnr-home p {
-    color: #F36192;
+    color: #ED64C2;
 }
 
 .parallax-bg {
@@ -3112,7 +3112,7 @@ header.header-3d {
 }
 
 .blog .post-tittle:hover {
-    color: #fe6192;
+    color: #ED64C2;
 }
 
 .blog .post-normal .tag {
@@ -3134,7 +3134,7 @@ header.header-3d {
     font-size: 12px;
     font-weight: normal;
     padding-bottom: 5px;
-    border-bottom: 1px solid #fe6192;
+    border-bottom: 1px solid #ED64C2;
 }
 
 .blog .post-normal .comm {
@@ -3421,7 +3421,7 @@ header.header-3d {
 }
 
 .blog-list-page .list-work article .tittle:hover {
-    color: #fe6192;
+    color: #ED64C2;
 }
 
 .blog-list-page .list-work article:hover img {
@@ -3711,7 +3711,7 @@ header.header-3d {
 }
 
 .footer .rights p {
-    color: #2d2464;
+    color: #ffffff;
 }
 
 .footer .rights p small {
@@ -3728,7 +3728,7 @@ header.header-3d {
 
 .footer .rights .mail-to {
     font-size: 25px;
-    color: #fe6192;
+    color: #ED64C2;
 }
 
 .footer .rights .social-icons {
@@ -3881,7 +3881,7 @@ header.header-3d {
 }
 
 .testimonial .owl-controls .owl-dots div.active {
-    background: #fe6192;
+    background: #ED64C2;
 }
 
 .tesi-text {
@@ -4054,8 +4054,8 @@ header.header-3d {
 
 .contact-form button {
     font-size: 25px;
-    border: 3px solid #fe6192;
-    color: #fe6192;
+    border: 3px solid #ED64C2;
+    color: #ED64C2;
     font-weight: bold;
     padding: 15px 50px;
     text-transform: uppercase;
@@ -4070,9 +4070,9 @@ header.header-3d {
 }
 
 .contact-form button:hover {
-    background: #fe6192;
+    background: #ED64C2;
     color: #fff;
-    border-color: #fe6192;
+    border-color: #ED64C2;
 }
 
 .newsletter {}
@@ -4435,12 +4435,12 @@ header.header-3d {
     position: fixed;
     bottom: 40px;
     right: 40px;
-    color: #fe6192;
+    color: #ED64C2;
     border-radius: 50%;
     font-size: 26px;
     text-align: center;
     line-height: 40px;
-    border: 3px solid #fe6192;
+    border: 3px solid #ED64C2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     white-space: nowrap;
@@ -4475,7 +4475,7 @@ header.header-3d {
 }
 
 .no-touch .cd-top:hover {
-    background-color: #fe6192;
+    background-color: #ED64C2;
     opacity: 1;
     color: #fff;
 }
@@ -5127,5 +5127,9 @@ header .is-sticky .sticky {
 .f-bold{
     font-weight: bold;
 }  
-  
+
+
+#a_Mai_Lead{
+    color: #ffffff;
+}
 

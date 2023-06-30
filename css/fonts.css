@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Genty Demo';
+    src: url('../fonts/GentyDemo-Regular.otf') format('opentype'),
+         url('../fonts/GentyDemo-Regular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Genty';
+    src: local('Genty Sans'), local('Genty-Sans'),
+        url('../fonts/gentySans/GentySans-Regular.woff2') format('woff2'),
+        url('../fonts/gentySans/GentySans-Regular.woff') format('woff'),
+        url('../fonts/gentySans/GentySans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.logo-mummy{
+  
+}
+.genty {
+    font-family: 'Genty Demo', Arial, sans-serif !important; 
+    letter-spacing: 3px;
+  }
+.fs-titulo{
+    font-size: 20rem;
+  }
+.fs-subtitulo{
+    font-size: 8rem;
+  }
+p,h3,a,h4, .g-sans{
+    font-family: 'Genty' !important;
+}
+
+  
+  
+  
+
+
